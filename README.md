@@ -4,7 +4,7 @@
 
 **CLI tool that will encode and decode a text by [Caesar cipher](https://en.wikipedia.org/wiki/Caesar_cipher)**.
 
-CLI tool should accept 4 options (short alias and full name):
+CLI tool (test1/index.js) can accept 4 options (short alias and full name):
 
 1.  **-s, --shift**: a shift
 2.  **-i, --input**: an input file
