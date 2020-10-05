@@ -22,15 +22,18 @@ CLI tool (test1/index.js) can accept 4 options (short alias and full name):
 **Usage example:**
 
 ```bash
-$ node my_caesar_cli -a encode -s 7 -i "./input.txt" -o "./output.txt"
+$ cd test1
+$ node index.js -a encode -s 7 -i "./input.txt" -o "./output.txt"
 ```
 
 ```bash
-$ node my_caesar_cli --action encode --shift 7 --input plain.txt --output encoded.txt
+$ cd test1
+$ node index.js --action encode --shift 7 --input plain.txt --output encoded.txt
 ```
 
 ```bash
-$ node my_caesar_cli --action decode --shift 7 --input decoded.txt --output plain.txt
+$ cd test1
+$ node index.js --action decode --shift 7 --input decoded.txt --output plain.txt
 ```
 
 > input.txt
