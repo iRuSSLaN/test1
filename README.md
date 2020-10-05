@@ -13,7 +13,7 @@ CLI tool (test1/index.js) can accept 4 options (short alias and full name):
 
 **Details:**
 
-1. Action (encode/decode) and the shift are required, if one of them missed - an error should be shown, the process should exit with non-zero status code.
+1. Action (encode/decode) and the shift are required, if one of them missed - an error will be shown, the process should exit with non-zero status code.
 2. If the input file is missed - will be used stdin as an input source.
 3. If the output file is missed - will be used stdout as an output destination.
 4. If the input and/or output file is given but doesn't exist or you can't read it (e.g. because of permissions or it is a directory) - human-friendly error will be printed in stderr.
